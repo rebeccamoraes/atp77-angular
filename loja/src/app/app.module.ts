@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ClienteListaComponent } from './cliente-lista/cliente-lista.component';
 import { TipoClienteListaComponent } from './tipo-cliente-lista/tipo-cliente-lista.component';
+import { TipoClienteFormComponent } from './tipo-cliente-form/tipo-cliente-form.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ClienteListaComponent,
-    TipoClienteListaComponent
+    TipoClienteListaComponent,
+    TipoClienteFormComponent
   ],
   imports: [
     BrowserModule,
